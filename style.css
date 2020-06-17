@@ -1,0 +1,270 @@
+.container__all {
+    max-width: 1240px;
+}
+
+/* SIDE
+=============================== */
+
+.side {
+    background-color: #242424;;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+}
+
+.side {
+    color: #ffffff;
+}
+
+.photo {
+    width: 229px;
+    background-color: #D8D8D8;
+    height: 229px;
+    border-radius: 50%;
+    margin: 57px auto 0;
+    margin-bottom: -20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.information {
+    margin-top: 60px;
+    margin-left: 55px;
+}
+
+.information__title {
+    text-transform: uppercase;
+    letter-spacing: 3.3px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 13px;
+    margin-bottom: 29px;
+    font-weight: 600;
+}
+
+.information__intro {
+    margin-left: 48px;
+    margin-bottom: 12px;
+}
+
+.information__name {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.information__text {
+    opacity: 0.7;
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* MAIN
+==================================== */
+.container__main {
+    max-width: 776px;
+}
+
+.heading {
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 78px;
+}
+
+.prof {
+    font-size: 21px;
+    font-weight: 500;
+    color: #242424;
+    letter-spacing: 7.5px;
+    margin-top: 32px;
+    margin-bottom: 35px;
+}
+
+.time {
+    border-top: 2px solid #9B9B9B;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.time__info {
+    padding-bottom: 12px;
+}
+
+.time__name {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.job {
+    margin-right: 40px;
+    margin-left: 80px;
+    position: relative;
+    width: 30%;
+}
+
+.job::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #4A4A4A;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(100% + 35px);
+    top: 13px;
+}
+
+.job::after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background-color: #4A4A4A;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(100% + 42px);
+    top: 25px;
+}
+
+.job__name {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.job__year {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-top: -3px;
+    word-wrap: normal;
+}
+
+.position {
+    margin-left: 40px;
+    width: calc(70% - 80px);
+}
+
+.position__name {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.position__text {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+/* SKILLS
+====================== */
+
+.skills {
+    border-top: 2px solid #9B9B9B;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.skills__title {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.pro {
+    width: 40%;
+}
+
+.personal {
+    width: calc(50% - 115px);
+    margin-left: 115px;
+}
+
+
+.skills__name {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 16px;
+}
+
+.skills__level {
+    width: 280px;
+    height: 9px;
+    background-color: #D8D8D8;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.skills__level::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    background-color: #000000;
+    border-radius: 20px 0 0 20px;
+}
+
+.skills__name--java::before{
+    width: 30%;
+}
+
+.skills__name--python::before{
+    width: 30%;
+}
+
+.skills__name--animate::before {
+    width: 70%;
+}
+
+.skills__name--communication::before {
+    width: 95%;
+}
+
+.skills__name--leadership::before {
+    width: 80%;
+}
+
+/* INTERESTS 
+============================== */
+.interests__title {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.interests__item {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.7;
+    border: 3px solid #D8D8D8;
+    border-radius: 100px;
+    display: inline-block;
+    width: 145px;
+    text-align: center;
+    padding-bottom: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
